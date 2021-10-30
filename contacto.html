@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/blue-favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo-contacto.css">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+    <title>Punto Safe | Contacto</title>
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="Imagenes/2.png" alt="cabecera">
+    </header>
+
+    <div class="hamburguesa">
+
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="../PUNTO SAFE/Imagenes/menu.png" alt="" width="30px" height="30px"></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="inicio.html" target="_self">Inicio</a></li>
+                <li><a href="nosotros.html" target="_self">Nosotros</a></li>
+                <li><a href="servicios.html" target="_self">Servicios</a></li>
+                <li><a href="contacto.html" target="_self">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <form name="Formulario de Contanto" action="gracias.html" target="_self" method="post">
+    <fieldset>
+        <label> Nombre y Apellido: <p><input type="text" name="Nombre y Apellido" placeholder="Juan Perez" required></p></label>
+        
+        <label> Email: <p><input type="email" name="Email" placeholder="juanperez@hola.com" required></p></label>
+        
+        <label>¿Cuándo quiere ser contactado/a?:
+            <p>  
+            <input type="date" name="Fecha de contacto" value="2021-11-23">
+            <input type="time" name="Hora de Contacto" value="09:30">
+            </p>
+        </label>
+
+        <label>Quiero recibir informacion de:</label>
+           <p><label><input type="checkbox" name="Asesoramientos" value="ase">Asesoramientos</label></p>
+           <p><label><input type="checkbox" name="Medio Ambiente" value="med">Medio Ambiente</label></p>
+           <p><label><input type="checkbox" name="Capacitaciones" value="cap">Capacitaciones</label></p>
+           <p><label><input type="checkbox" name="Elementos de Proteccion (EPP)" value="epp">EPP</label></p>
+        
+        <label>Comentario:
+           <p><textarea cols="30" rows="5" placeholder="Informacion Adicional..."></textarea></p>
+        
+       <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </fieldset>
+        
+        
+    </form>
+    
+<footer>
+    <p>Copyright © | 2021 | Todos los Derechos Reservados</p>
+    <i class="bx bxl-linkedin-square"></i>
+    <i class="bx bxl-instagram" ></i>
+    <i class="bx bxl-youtube" ></i>
+</footer>
+    
+    
+</body>
+</html>
